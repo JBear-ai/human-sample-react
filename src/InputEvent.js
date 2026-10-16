@@ -15,7 +15,30 @@ const InputEvent = () => {
   // 확인 버튼 눌렸을때의 결과 출력
   const [message, setMessage] = useState("");
 
-  // 입력값마다 onChange 핸들러 따로 작성
+  // 입력값마다 onChange 핸들러 따로 작성 (교수 방식)
+  // const onChangeName = (e) => setName(e.target.value);
+  // const onChangePwd = (e) => setPwd(e.target.value);
+  // const onChangeAge = (e) => setAge(e.target.value);
+  // const onChangeAddr = (e) => setAddr(e.target.value);
+  // const onChangeEmail = (e) => setEmail(e.target.value);
+
+  // 모든 값이 입력되었는지 확인 (공백만 입력한 경우도 미입력 처리 / 교수방식)
+  // const isAllFiled =
+  //   name.trim() !== "" &&
+  //   pwd.trim() !== "" &&
+  //   age.trim() !== "" &&
+  //   addr.trim() !== "" &&
+  //   email.trim() !== "" ;
+
+  // 확인 버튼 클릭 (교수 방식)
+  // const onSubmit = e => {
+  //   e.preventDefault(); // 폼 제출 시 새로 고침 방식
+
+  //   if(isAllFiled){
+  //     alert("모든 항목을 입력 해주세요");
+  //     return;
+  //   }
+  // }
 
   return (
     <>

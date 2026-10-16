@@ -4,7 +4,10 @@ import React from "react";
 // import Article from "./Article";
 // import BoardDto from "./BoardDto";
 // import Say from "./Say";
-import InputEvent from "./InputEvent";
+// import InputEvent from "./InputEvent";
+import DropDown from "./DropDown";
+import RadioBtn from "./RadioBtn";
+import CheckBox from "./CheckBox";
 
 // const data = [
 //   {
@@ -147,7 +150,12 @@ function App() {
       {data2 &&
         data2.map((board, index) => <BoardDto key={index} data2={board} />)} */}
       {/* <Say />; */}
-      <InputEvent />
+      {/* <InputEvent /> */}
+      <DropDown></DropDown>
+      <br></br>
+      <RadioBtn></RadioBtn>
+      <br></br>
+      <CheckBox></CheckBox>
     </>
   );
 }
