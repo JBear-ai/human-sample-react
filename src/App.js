@@ -8,6 +8,7 @@ import React from "react";
 import DropDown from "./DropDown";
 import RadioBtn from "./RadioBtn";
 import CheckBox from "./CheckBox";
+import Table from "./Table";
 
 // const data = [
 //   {
@@ -156,6 +157,7 @@ function App() {
       <RadioBtn></RadioBtn>
       <br></br>
       <CheckBox></CheckBox>
+      <Table></Table>
     </>
   );
 }
