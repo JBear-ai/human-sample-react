@@ -5,10 +5,14 @@ import React from "react";
 // import BoardDto from "./BoardDto";
 // import Say from "./Say";
 // import InputEvent from "./InputEvent";
-import DropDown from "./DropDown";
-import RadioBtn from "./RadioBtn";
-import CheckBox from "./CheckBox";
-import Table from "./Table";
+// import DropDown from "./DropDown";
+// import RadioBtn from "./RadioBtn";
+// import CheckBox from "./CheckBox";
+// import Table from "./Table";
+// import ToDoSample from "./ToDoSample";
+// import Count from "./Count";
+// import Information from "./Information";
+import Average from "./Average";
 
 // const data = [
 //   {
@@ -152,12 +156,16 @@ function App() {
         data2.map((board, index) => <BoardDto key={index} data2={board} />)} */}
       {/* <Say />; */}
       {/* <InputEvent /> */}
-      <DropDown></DropDown>
+      {/* <DropDown></DropDown>
       <br></br>
       <RadioBtn></RadioBtn>
       <br></br>
       <CheckBox></CheckBox>
-      <Table></Table>
+      <Table></Table> */}
+      {/* <ToDoSample></ToDoSample> */}
+      {/* <Count></Count> */}
+      {/* <Information></Information> */}
+      <Average></Average>
     </>
   );
 }
