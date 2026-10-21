@@ -8,7 +8,7 @@ const Information = () => {
   useEffect(() => {
     console.log("렌더링이 완료되었습니다.");
     console.log({ name, nickname, addr });
-  }, []);
+  }, [name]);
 
   return (
     <>

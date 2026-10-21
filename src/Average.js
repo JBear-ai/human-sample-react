@@ -20,7 +20,7 @@ const Average = () => {
   };
 
   // 콜백함수
-  const avg = useMemo(() => getAverage(list, [list]));
+  // const avg = useMemo(() => getAverage(list, [list]));
 
   // 정해진 패턴이며 많아봤자 10개
 
